@@ -1,0 +1,35 @@
+/* 
+  Our list items should not have the regular dots
+*/
+ul {
+    list-style: none;
+}
+/* 
+  Set out layout to be 960px wide
+*/
+.gridster {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* 
+  Give the layout a boxy look with shadows, and 
+  change the cursor over the elements so it's 
+  easier to know where to drag
+*/
+.gridster .gs_w {
+    background: #FFF;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+
+
+
+
+
+
+
+
+

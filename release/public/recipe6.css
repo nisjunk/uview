@@ -1,0 +1,95 @@
+/* 
+  Our list items should not have the regular dots
+*/
+ul {
+    list-style: none;
+}
+/* 
+  Set out layout to be 960px wide
+*/
+.gridster {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* 
+  Give the layout a boxy look with shadows, and 
+  change the cursor over the elements so it's 
+  easier to know where to drag
+*/
+.gridster .gs_w {
+    background: #FFF;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+/* Align the images to center and middle */
+.gridster img{
+  margin-top:20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+/* Define our colours */
+/* purple */
+.gridster li.purple{
+  background:#A200FF;
+}
+
+
+/*  magenta */
+.gridster li.magenta{
+  background: #FF0097;
+}
+
+/*  teal */
+.gridster li.teal{
+  background: #00ABA9;
+}
+
+/*  lime */
+.gridster .lime{
+  background: #8CBF26;
+}
+
+/*  brown */
+.gridster li.brown{
+  background: #A05000;
+}
+
+/* pink */
+.gridster li.pink{
+  background: #E671B8;
+}
+
+/*  orange */
+.gridster li.orange{
+  background: #F09609;
+}
+
+/*  blue */
+.gridster li.blue{
+  background: #1BA1E2;
+}
+
+/*  red */
+.gridster li.red{
+  background: #E51400;
+}
+
+/*  green */
+.gridster li.green{
+  background: #339933;
+}
+
+
+
+
+
+
+
+
+
+
