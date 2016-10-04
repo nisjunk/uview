@@ -72,6 +72,15 @@
   </div>
  <!-- Gridster initialization -->
   <script src="recipe6.js"></script>
-    <script type="text/babel" src="scripts/example.js"></script>
+    <script type="text/babel">
+	$(function(){ //DOM Ready
+
+    var gridster = $(".gridster ul").gridster({
+        widget_margins: [5, 5],
+        widget_base_dimensions: [100, 100]
+    }); 
+	
+	});
+	</script>
 </body>
 </html>
