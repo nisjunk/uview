@@ -1,32 +1,15 @@
 [
     {
-        "id": 1388534400000,
         "author": "Pete Hunt",
-        "text": "Hey there!"
+        "text": "This is one comment"
     },
     {
-        "id": 1420070400000,
-        "author": "Léo",
-        "text": "React is *great*!"
+        "author": "Jordan Walke",
+        "text": "This is *another* comment"
     },
     {
-        "id": 1462975690283,
-        "author": "NiCo",
-        "text": "C'est super"
-    },
-    {
-        "id": 1464722700735,
-        "author": "NiS",
-        "text": "good!"
-    },
-    {
-        "id": "NiS1464723038141",
-        "author": "NiS",
-        "text": "super"
-    },
-    {
-        "id": "fdgdfg1464723960754",
-        "author": "fdgdfg",
-        "text": "ggdfg"
+        "id": "nis1475855526229",
+        "author": "nis",
+        "text": "youpi"
     }
 ]

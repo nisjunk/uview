@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  <!-- external CSS -->
+  <link rel="stylesheet" type="text/css" href="gridster/jquery.gridster.min.css">
+  <!-- internal CSS -->
+	<link rel="stylesheet" type="text/css" href="css/site.css">
+	<link rel="stylesheet" href="css/base.css" />
+  <!-- JS always NOT at the bottom -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="gridster/jquery.gridster.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.16/browser.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.5/marked.min.js"></script>
+
+  <title>uView</title>
+</head>
+<body>
+
+  <div class="gridster">
+	<ul>
+		<div id="content"></div>
+		<li data-row="1" data-col="1" data-sizex="2" data-sizey="1" class="blue">
+			<img src="images/aim.png">
+		</li>
+		<li data-row="2" data-col="1" data-sizex="2" data-sizey="1" class="magenta">
+			<img src="images/accessories-character-map.png">
+		</li>
+		<li data-row="3" data-col="1" data-sizex="2" data-sizey="1" class="purple">
+			<img src="images/ark-3.png"></li>
+		<li data-row="4" data-col="1" data-sizex="2" data-sizey="1" class="teal">
+			<img src="images/artsbuilder-2.png"></li>
+
+		<li data-row="1" data-col="3" data-sizex="2" data-sizey="1" class="lime">
+			<img src="images/bluetooth.png">
+		</li>
+		<li data-row="2" data-col="3" data-sizex="2" data-sizey="1" class="brown">
+			<img src="images/accessories-calculator-4.png">
+		</li>
+		<li data-row="3" data-col="3" data-sizex="2" data-sizey="1" class="pink">
+			<img src="images/computer_janitor.png">
+		</li>
+		<li data-row="4" data-col="3" data-sizex="2" data-sizey="1" class="orange">
+			<img src="images/development-eclipse-2.png">
+		</li>
+
+		<li data-row="1" data-col="5" data-sizex="1" data-sizey="1" class="red">
+			<img src="images/development-ruby-2.png">
+		</li>
+		<li data-row="2" data-col="5" data-sizex="1" data-sizey="1" class="green">
+			<img src="images/accessories-clock-3.png">
+		</li>
+		<li data-row="3" data-col="5" data-sizex="2" data-sizey="1" class="blue">
+			<img src="images/accessories-date.png">
+		</li>
+		<li data-row="4" data-col="5" data-sizex="1" data-sizey="1" class="magenta">
+			<img src="images/distributions-windows.png">
+		</li>
+
+		<li data-row="1" data-col="6" data-sizex="1" data-sizey="1" class="purple">
+			<img src="images/dolphin.png">
+		</li>
+		<li data-row="2" data-col="6" data-sizex="1" data-sizey="1" class="pink">
+			<img src="images/flsudoku.png">
+		</li>
+		<li data-row="4" data-col="6" data-sizex="1" data-sizey="1" class="brown">
+			<img src="images/fontforge.png">
+		</li>
+	</ul>
+  </div>
+    <script src="lib/main.js"></script>
+
+    <script type="text/babel">
+	$(function(){ //DOM Ready
+
+    var gridster = $(".gridster ul").gridster({
+        widget_margins: [5, 5],
+        widget_base_dimensions: [100, 100]
+    }); 
+	
+	});
+	</script>
+  </body>
+</html>
