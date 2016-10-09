@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 
 module.exports = {
-  entry: './src/main.jsx',
+  entry: './src/main.js',
   output: {
     // Output the bundled file.
     path: './lib',
