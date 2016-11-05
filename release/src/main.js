@@ -1,9 +1,9 @@
 var React = require('react');
 
-var CommentBox = require('./commentBox');
+var Kanban = require('./kanban');
 
 
 ReactDOM.render(
-  <CommentBox url="/api/comments" pollInterval={2000} />,
+  <Kanban url="/api/comments" pollInterval={2000} />,
   document.getElementById('content')
 );
